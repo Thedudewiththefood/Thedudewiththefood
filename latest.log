@@ -1,0 +1,817 @@
+[11:46:20] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[11:46:20] [main/INFO]: Using primary tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[11:46:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:46:20] [main/INFO]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[11:46:20] [main/INFO]: Bootstrapping LiteLoader 1.12.2
+[11:46:21] [main/INFO]: Registering API provider class com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient
+[11:46:21] [main/INFO]: Spawning API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' ...
+[11:46:21] [main/INFO]: API provider class 'com.mumfrey.liteloader.client.api.LiteLoaderCoreAPIClient' provides API 'liteloader'
+[11:46:21] [main/INFO]: Initialising API 'liteloader' ...
+[11:46:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.5 Source=file:/C:/Users/Nathan/AppData/Roaming/.minecraft/libraries/com/mumfrey/liteloader/1.12.2-SNAPSHOT/liteloader-1.12.2-SNAPSHOT.jar Service=LaunchWrapper Env=CLIENT
+[11:46:23] [main/INFO]: LiteLoader begin PREINIT...
+[11:46:23] [main/INFO]: Initialising Loader properties...
+[11:46:23] [main/INFO]: Setting up logger...
+[11:46:23] [main/INFO]: LiteLoader 1.12.2 starting up...
+[11:46:23] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[11:46:23] [main/INFO]: Java reports OS="windows 7"
+[11:46:24] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[11:46:24] [main/INFO]: Enumerating class path...
+[11:46:24] [main/INFO]: Class path separator=";"
+[11:46:24] [main/INFO]: Class path entries=(
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-SNAPSHOT\liteloader-1.12.2-SNAPSHOT.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2847\forge-1.12.2-14.23.5.2847.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+   classpathEntry=C:\Users\Nathan\AppData\Roaming\.minecraft\versions\1.12.2\1.12.2.jar
+)
+[11:46:24] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[11:46:24] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Nathan\AppData\Roaming\.minecraft\mods]
+[11:46:24] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\Nathan\AppData\Roaming\.minecraft\mods\1.12.2]
+[11:46:24] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@2a7b6f69]
+[11:46:24] [main/INFO]: Discovering valid mod files in folder C:\Users\Nathan\AppData\Roaming\.minecraft\mods
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'additionalresources-1.9.4-0.2.0.28+47cd0bd_signed.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\additionalresources-1.9.4-0.2.0.28+47cd0bd_signed.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'audiodeath-1.9-0.7.0.50+87aeca7.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\audiodeath-1.9-0.7.0.50+87aeca7.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'BetterCombat-1.12.2-1.5.6.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\BetterCombat-1.12.2-1.5.6.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'carvablepumpkins_1.5.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\carvablepumpkins_1.5.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'Cathedral-1.12.2-1.9.7k.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\Cathedral-1.12.2-1.9.7k.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'Chisel-MC1.12.2-0.2.1.35.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\Chisel-MC1.12.2-0.2.1.35.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'CodeChickenLib-1.12.2-3.2.3.358-universal.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'CoFHCore-1.12.2-4.6.3.27-universal.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\CoFHCore-1.12.2-4.6.3.27-universal.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'CraftTweaker2-1.12-4.1.19.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\CraftTweaker2-1.12-4.1.19.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'CTM-MC1.12.2-0.3.3.22.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\CTM-MC1.12.2-0.3.3.22.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'CustomNPCs_1.12.2-(01Oct19).jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\CustomNPCs_1.12.2-(01Oct19).jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'DamageControl-1.12.2-1.3.15.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\DamageControl-1.12.2-1.3.15.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'ElecCore-1.12.2-1.9.452.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\ElecCore-1.12.2-1.9.452.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'EpicSiegeMod-13.164.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\EpicSiegeMod-13.164.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'Fakename+MC1.12.2+v1.1.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\Fakename+MC1.12.2+v1.1.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'iceandfire-1.8.4.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\iceandfire-1.8.4.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'ironchest-1.12.2-7.0.72.847.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\ironchest-1.12.2-7.0.72.847.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'jei_1.12.2-4.15.0.291.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\jei_1.12.2-4.15.0.291.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'llibrary-1.7.19-1.12.2.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\llibrary-1.7.19-1.12.2.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'malisisblocks-1.12.2-6.1.0.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\malisisblocks-1.12.2-6.1.0.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'malisiscore-1.12.2-6.5.1.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\malisiscore-1.12.2-6.5.1.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'malisisdoors-1.12.2-7.3.0.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\malisisdoors-1.12.2-7.3.0.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar
+[11:46:24] [main/INFO]: Considering valid mod file: C:\Users\Nathan\AppData\Roaming\.minecraft\mods\mod_mineAmp_1.2.1_for_1.12.2.litemod
+[11:46:24] [main/INFO]: Considering valid mod file: C:\Users\Nathan\AppData\Roaming\.minecraft\mods\mod_voxelMap_1.7.1_for_1.12.2.litemod
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'moresoundconfig-1.0.4.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\moresoundconfig-1.0.4.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'OptiFine_1.12.2_HD_U_F5.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\OptiFine_1.12.2_HD_U_F5.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'Placebo-1.12.2-1.6.0.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\Placebo-1.12.2-1.6.0.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'RedstoneFlux-1.12-2.1.0.6-universal.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\RedstoneFlux-1.12-2.1.0.6-universal.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'ReSound-1.12.2-1r.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\ReSound-1.12.2-1r.jar
+[11:46:24] [main/INFO]: Inspecting jar metadata in 'Resources_Mod.jar'
+[11:46:24] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\Resources_Mod.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'secretroomsmod-1.12.2-5.6.4.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\secretroomsmod-1.12.2-5.6.4.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'shetiphiancore-1.12.0-3.5.9.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\shetiphiancore-1.12.0-3.5.9.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'SimpleDimensions-MC1.12-1.3.1.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\SimpleDimensions-MC1.12-1.3.1.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'spawntabletweaker-1.0.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\spawntabletweaker-1.0.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'techguns-1.12.2-2.0.2.0_pre3.1.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\techguns-1.12.2-2.0.2.0_pre3.1.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'TexFix+V-1.12-4.0.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\TexFix+V-1.12-4.0.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'thutcore-1.12.2-5.21.0.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\thutcore-1.12.2-5.21.0.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'thuttech-1.12.2-6.1.6.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\thuttech-1.12.2-6.1.6.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'Toast+Control-1.12.2-1.8.1.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\Toast+Control-1.12.2-1.8.1.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'VanillaFix-1.0.10-99.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\VanillaFix-1.0.10-99.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'VariedCommodities_1.12.2(15may18.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\VariedCommodities_1.12.2(15may18.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in 'XPTeleporters-1.12.2-2.0.0.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\XPTeleporters-1.12.2-2.0.0.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in '[1.12.2]+SecurityCraft+v1.8.12.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\[1.12.2]+SecurityCraft+v1.8.12.jar
+[11:46:25] [main/INFO]: Inspecting jar metadata in '[1.12]+RPG-HUD-3.6.6.2.jar'
+[11:46:25] [main/INFO]: Ignoring C:\Users\Nathan\AppData\Roaming\.minecraft\mods\[1.12]+RPG-HUD-3.6.6.2.jar
+[11:46:25] [main/INFO]: Discovering valid mod files in folder C:\Users\Nathan\AppData\Roaming\.minecraft\mods\1.12.2
+[11:46:25] [main/INFO]: Discovering tweaks on class path...
+[11:46:25] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[11:46:25] [main/INFO]: Registering discovered mod files in folder C:\Users\Nathan\AppData\Roaming\.minecraft\mods
+[11:46:25] [main/INFO]: Adding newest valid mod file 'C:\Users\Nathan\AppData\Roaming\.minecraft\mods\mod_mineAmp_1.2.1_for_1.12.2.litemod' at revision 1201.0000
+[11:46:25] [main/INFO]: Adding newest valid mod file 'C:\Users\Nathan\AppData\Roaming\.minecraft\mods\mod_voxelMap_1.7.1_for_1.12.2.litemod' at revision 1701.0000
+[11:46:25] [main/INFO]: Registering discovered mod files in folder C:\Users\Nathan\AppData\Roaming\.minecraft\mods\1.12.2
+[11:46:25] [main/INFO]: Registering mixin config mixins.oldnorth.json for mod_voxelMap_1.7.1_for_1.12.2.litemod
+[11:46:26] [main/INFO]: Registering mixin config mixins.voxelmap.json for mod_voxelMap_1.7.1_for_1.12.2.litemod
+[11:46:26] [main/INFO]: Initialising LiteLoader Mixins
+[11:46:26] [main/INFO]: Compatibility level set to JAVA_8
+[11:46:26] [main/INFO]: LiteLoader PREINIT complete
+[11:46:26] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.transformers.event.EventProxyTransformer'
+[11:46:29] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.launch.LiteLoaderTransformer'
+[11:46:29] [main/INFO]: Injecting required class transformer 'com.mumfrey.liteloader.client.transformers.CrashReportTransformer'
+[11:46:29] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[11:46:29] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[11:46:29] [main/INFO]: Queuing required class transformer 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[11:46:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:46:29] [main/INFO]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[11:46:29] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 7:amd64:6.1, installed at C:\Program Files (x86)\Minecraft Launcher\runtime\jre-x64
+[11:46:30] [main/WARN]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[11:46:30] [main/WARN]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[11:46:31] [main/INFO]: Searching C:\Users\Nathan\AppData\Roaming\.minecraft\mods for mods
+[11:46:31] [main/INFO]: Searching C:\Users\Nathan\AppData\Roaming\.minecraft\mods\1.12.2 for mods
+[11:46:31] [main/WARN]: The coremod portablejim.additionalresources.Ar_CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:46:31] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-0.3.3.22.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[11:46:31] [main/WARN]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:46:31] [main/WARN]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[11:46:31] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[11:46:31] [main/WARN]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
+[11:46:31] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from malisiscore-1.12.2-6.5.1.jar
+[11:46:31] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_F5.jar
+[11:46:31] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in secretroomsmod-1.12.2-5.6.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[11:46:31] [main/WARN]: The coremod SecretRoomsMod-Core (com.wynprice.secretroomsmod.core.SecretRoomsCore) is not signed!
+[11:46:31] [main/INFO]: [SecretRoomsMod-Core] Core loaded
+[11:46:31] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in techguns-1.12.2-2.0.2.0_pre3.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[11:46:31] [main/WARN]: The coremod Techguns Core (techguns.core.TechgunsFMLPlugin) is not signed!
+[11:46:31] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.10-99.jar
+[11:46:31] [main/WARN]: The coremod shetiphian.asm.TweakPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:46:31] [main/WARN]: The coremod ShetiPhian-ASM (shetiphian.asm.TweakPlugin) is not signed!
+[11:46:31] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[11:46:31] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[11:46:31] [main/INFO]: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[11:46:31] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:46:31] [main/WARN]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[11:46:31] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[11:46:32] [main/WARN]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[11:46:32] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:46:32] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:46:32] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:46:32] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[11:46:32] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[11:46:32] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[11:46:32] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[11:46:32] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Users\Nathan\AppData\Roaming\.minecraft\mods\OptiFine_1.12.2_HD_U_F5.jar
+[11:46:32] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[11:46:32] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@6ceb7b5e
+[11:46:32] [main/WARN]: The coremod net.malisis.core.asm.MalisisCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[11:46:32] [main/WARN]: The coremod MalisisCorePlugin (net.malisis.core.asm.MalisisCorePlugin) is not signed!
+[11:46:32] [main/INFO]: Initializing VanillaFix
+[11:46:33] [main/INFO]: Initializing StacktraceDeobfuscator
+[11:46:33] [main/INFO]: Found MCP method mappings: methods-stable_39.csv
+[11:46:34] [main/INFO]: Done initializing StacktraceDeobfuscator
+[11:46:34] [main/INFO]: Initializing Bug Fix Mixins
+[11:46:34] [main/INFO]: Initializing Crash Fix Mixins
+[11:46:34] [main/INFO]: Initializing Profiler Improvement Mixins
+[11:46:34] [main/INFO]: Initializing Texture Fix Mixins
+[11:46:34] [main/INFO]: Initializing Mod Support Mixins
+[11:46:34] [main/WARN]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[11:46:34] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[11:46:34] [main/INFO]: Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker$PreInitTweaker
+[11:46:34] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:46] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[11:46:46] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[11:46:46] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:46] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:46] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:46:47] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:47] [main/INFO]: [SecretRoomsTransformer] Registered
+[11:46:47] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:48] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:49] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:49] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:49] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:49] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:46:49] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:46:49] [main/WARN]: Tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker has already been visited -- skipping
+[11:46:49] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:46:49] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[11:46:49] [main/INFO]: Injecting downstream transformers
+[11:46:49] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.EventTransformer'
+[11:46:51] [main/WARN]: Failed to fetch hierarchy node for net.minecraft.util.text.TextComponentTranslation. This may cause patch issues
+[11:46:51] [main/WARN]: Failed to fetch hierarchy node for net.minecraft.util.math.BlockPos. This may cause patch issues
+[11:46:51] [main/WARN]: Failed to fetch hierarchy node for net.minecraft.tileentity.CommandBlockBaseLogic. This may cause patch issues
+[11:46:51] [main/WARN]: Failed to fetch hierarchy node for net.minecraft.item.ItemStack. This may cause patch issues
+[11:46:54] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[11:46:54] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[11:46:54] [main/INFO]: [SecretRoomsTransformer] Running Transform on net.minecraft.client.renderer.BlockRendererDispatcher
+[11:46:54] [main/INFO]: [SecretRoomsTransformer] Finished Transform on: net.minecraft.client.renderer.BlockRendererDispatcher
+[11:46:54] [main/INFO]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:480]: Successfully patched 2 arg RenderItem.RenderModel with ASM
+[11:46:54] [main/INFO]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:299]: Successfully patched 4 arg RenderItem.RenderItem with ASM
+[11:46:54] [main/INFO]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:423]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
+[11:46:54] [main/INFO]: A re-entrant transformer '$wrapper.techguns.core.TechgunsASMTransformer' was detected and will no longer process meta class data
+[11:46:55] [main/INFO]: Attempting: Injection of Run Particle Override into Entity.createRunningParticles
+[11:46:55] [main/INFO]: Searching for: Entity.createRunningParticles (func_174808_Z)
+[11:46:55] [main/INFO]: Found Method: Entity.createRunningParticles
+[11:46:55] [main/INFO]: Injecting: Run Particle Override
+[11:46:57] [main/INFO]: [SecretRoomsTransformer] Running Transform on net.minecraft.client.renderer.BlockModelRenderer
+[11:46:57] [main/INFO]: [SecretRoomsTransformer] Finished Transform on: net.minecraft.client.renderer.BlockModelRenderer
+[11:46:58] [main/INFO]: [SecretRoomsTransformer] Running Transform on net.minecraft.client.renderer.chunk.RenderChunk
+[11:46:58] [main/INFO]: [SecretRoomsTransformer] Finished Transform on: net.minecraft.client.renderer.chunk.RenderChunk
+[11:46:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[11:46:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[11:46:58] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.common.transformers.LiteLoaderPacketTransformer'
+[11:46:59] [main/INFO]: Injecting additional class transformer class 'com.mumfrey.liteloader.transformers.event.json.ModEventInjectionTransformer'
+[11:46:59] [main/INFO]: FML detected, switching to searge mappings
+[11:46:59] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:47:01] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[11:47:01] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[11:47:05] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[11:47:05] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[11:47:06] [main/INFO]: Attempting: Injection of Run Particle Override into Entity.createRunningParticles
+[11:47:06] [main/INFO]: Searching for: Entity.createRunningParticles (func_174808_Z)
+[11:47:06] [main/INFO]: Found Method: Entity.createRunningParticles
+[11:47:06] [main/INFO]: Injecting: Run Particle Override
+[11:47:09] [main/INFO]: [net.minecraft.client.main.Main:main:55]: Completely ignored arguments: [cc092ce6a3034627a1f78cc0ac49100e, , mojang, , AquaLeaderArchie, , 1.12, eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzZDFkMmIyOTY0ZmE0NzdhYTRjMjViNjQ4MzlmMjRhMyIsInlnZ3QiOiI0YjQ1MTI2ZDgzN2Q0MTI0YmFhY2Y0Y2JlMTIzYmJiMCIsInNwciI6ImNjMDkyY2U2YTMwMzQ2MjdhMWY3OGNjMGFjNDkxMDBlIiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE1ODQ5MTkzMTQsImlhdCI6MTU4NDc0NjUxNH0.iWhAjI8MnJEfqb05cTyEVpKeGdy3DhLbSh_M2p2V1Rk, Forge]
+[11:47:10] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[11:47:10] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[11:47:11] [Client thread/INFO]: Setting user: AquaLeaderArchie
+[11:47:11] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[11:47:11] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[11:47:13] [Client thread/INFO]: [SecretRoomsTransformer] Running Transform on net.minecraft.block.state.BlockStateContainer$StateImplementation
+[11:47:13] [Client thread/INFO]: [SecretRoomsTransformer] Finished Transform on: net.minecraft.block.state.BlockStateContainer$StateImplementation
+[11:47:15] [Client thread/INFO]: [SecretRoomsTransformer] Running Transform on net.minecraft.block.BlockBreakable
+[11:47:15] [Client thread/INFO]: [SecretRoomsTransformer] Finished Transform on: net.minecraft.block.BlockBreakable
+[11:47:36] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[11:47:36] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[11:47:38] [Client thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.vanillafix.crashes.json:MixinCrashReportCategory::handler$afterGetStacktrace$zcj000 exceeds the maximum allowed value 0. Increase the value of maxShiftBy to suppress this warning.
+[11:47:38] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[11:47:38] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[11:47:41] [Client thread/INFO]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:480]: Successfully patched 2 arg RenderItem.RenderModel with ASM
+[11:47:41] [Client thread/INFO]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:299]: Successfully patched 4 arg RenderItem.RenderItem with ASM
+[11:47:41] [Client thread/INFO]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:423]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
+[11:47:41] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[11:47:41] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[11:47:41] [Client thread/WARN]: Injection warning: LVT in net/minecraft/client/renderer/texture/TextureMap::func_110571_b(Lnet/minecraft/client/resources/IResourceManager;)V has incompatible changes at opcode 1140 in callback net/minecraft/client/renderer/texture/TextureMap::handler$onLoadTextureAtlas$zbk000.
+Expected: [I, Lnet/minecraft/client/renderer/texture/Stitcher;, I, I, Lnet/minecraftforge/fml/common/ProgressManager$ProgressBar;]
+   Found: [I, Lnet/minecraft/client/renderer/texture/Stitcher;, I, I, I, I, I, Ljava/util/List;, I, I, Ljava/util/Map;]
+[11:47:42] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[11:47:43] [Client thread/INFO]: [techguns.core.TechgunsASMTransformer:patchItemRenderer_updateEquippedItem:528]: Successfully patched ItemRenderer.updateEquippedItem with ASM
+[11:47:43] [Client thread/INFO]: [SecretRoomsTransformer] Running Transform on net.minecraft.client.renderer.BlockRendererDispatcher
+[11:47:43] [Client thread/INFO]: [SecretRoomsTransformer] Finished Transform on: net.minecraft.client.renderer.BlockRendererDispatcher
+[11:47:44] [Client thread/WARN]: Skipping bad option: lastServer:
+[11:47:44] [Client thread/INFO]: LWJGL Version: 2.9.4
+[11:47:47] [Client thread/INFO]: [OptiFine] 
+[11:47:47] [Client thread/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_F5
+[11:47:47] [Client thread/INFO]: [OptiFine] Build: 20191204-141934
+[11:47:47] [Client thread/INFO]: [OptiFine] OS: Windows 7 (amd64) version 6.1
+[11:47:47] [Client thread/INFO]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[11:47:47] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[11:47:47] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[11:47:47] [Client thread/INFO]: [OptiFine] OpenGL: AMD Radeon HD 6310 Graphics, version 4.5.13417 Compatibility Profile Context 15.301.1901.0, ATI Technologies Inc.
+[11:47:47] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.5.13417
+[11:47:47] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[11:47:48] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[11:47:48] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[11:47:48] [Client thread/INFO]: [Shaders] OpenGL Version: 4.5.13417 Compatibility Profile Context 15.301.1901.0
+[11:47:48] [Client thread/INFO]: [Shaders] Vendor:  ATI Technologies Inc.
+[11:47:48] [Client thread/INFO]: [Shaders] Renderer: AMD Radeon HD 6310 Graphics
+[11:47:48] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[11:47:48] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[11:47:48] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[11:47:48] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 18
+[11:47:48] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[11:47:48] [Client thread/INFO]: [Shaders] Shaders can not be loaded, Fast Render is enabled.
+[11:47:48] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[11:47:49] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[11:47:49] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[11:47:49] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[11:47:50] [Client thread/WARN]: Unable to call Core API! It has not been initialized yet!
+[11:47:50] [Client thread/WARN]: Unable to call Core API! It has not been initialized yet!
+[11:47:50] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F5, enabling compatibility features
+[11:47:50] [Client thread/INFO]: MinecraftForge v14.23.5.2847 Initialized
+[11:47:50] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[11:47:50] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[11:47:50] [Client thread/INFO]: Replaced 1227 ore ingredients
+[11:47:52] [Client thread/INFO]: Searching C:\Users\Nathan\AppData\Roaming\.minecraft\mods for mods
+[11:47:52] [Client thread/INFO]: Searching C:\Users\Nathan\AppData\Roaming\.minecraft\mods\1.12.2 for mods
+[11:47:58] [Client thread/INFO]: Mod carvablepumpkins is missing the required element 'name'. Substituting carvablepumpkins
+[11:47:58] [Client thread/WARN]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[11:48:02] [Client thread/WARN]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[11:48:02] [Client thread/WARN]: Mod mtrm is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.2.30
+[11:48:02] [Client thread/WARN]: Zip file Resources_Mod.jar failed to read properly, it will be ignored
+java.lang.IllegalArgumentException: MALFORMED
+	at java.util.zip.ZipCoder.toString(ZipCoder.java:58) ~[?:1.8.0_51]
+	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:567) ~[?:1.8.0_51]
+	at java.util.zip.ZipFile.access$900(ZipFile.java:61) ~[?:1.8.0_51]
+	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:525) ~[?:1.8.0_51]
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:500) ~[?:1.8.0_51]
+	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:481) ~[?:1.8.0_51]
+	at java.util.jar.JarFile$JarEntryIterator.next(JarFile.java:257) ~[?:1.8.0_51]
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:266) ~[?:1.8.0_51]
+	at java.util.jar.JarFile$JarEntryIterator.nextElement(JarFile.java:247) ~[?:1.8.0_51]
+	at java.util.Collections.list(Collections.java:5240) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:88) ~[JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:4431) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[11:48:03] [Client thread/WARN]: Mod vanillafix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.10-SNAPSHOT
+[11:48:04] [Client thread/INFO]: Forge Mod Loader has identified 52 mods to load
+[11:48:04] [Client thread/INFO]: FML has found a non-mod file Resources_Mod.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[11:48:08] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, additionalresources, srm-hooks, moresoundconfigcore, techguns_core, securitycraft, rpghud, audiodeath, bettercombatmod, carvablepumpkins, cathedral, chisel, codechickenlib, cofhcore, ctgui, crafttweaker, crafttweakerjei, ctm, customnpcs, dmgcontrol, eleccoreloader, eleccore, epicsiegemod, fakename, iceandfire, ironchest, jei, malisisblocks, malisiscore, malisisdoors, mtrm, placebo, redstoneflux, resound, secretroomsmod, simpledimensions, spawntabletweaker, techguns, texfix, thutcore_compat, thutcore, thuttech, toastcontrol, vanillafix, variedcommodities, xpt, llibrary, moresoundconfig, shetiphiancore] at CLIENT
+[11:48:08] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, additionalresources, srm-hooks, moresoundconfigcore, techguns_core, securitycraft, rpghud, audiodeath, bettercombatmod, carvablepumpkins, cathedral, chisel, codechickenlib, cofhcore, ctgui, crafttweaker, crafttweakerjei, ctm, customnpcs, dmgcontrol, eleccoreloader, eleccore, epicsiegemod, fakename, iceandfire, ironchest, jei, malisisblocks, malisiscore, malisisdoors, mtrm, placebo, redstoneflux, resound, secretroomsmod, simpledimensions, spawntabletweaker, techguns, texfix, thutcore_compat, thutcore, thuttech, toastcontrol, vanillafix, variedcommodities, xpt, llibrary, moresoundconfig, shetiphiancore] at SERVER
+[11:48:11] [VersionCheck/INFO]: [OptiFine] Version found: D3
+[11:48:21] [Client thread/ERROR]: The mod resound is expecting signature 4d7b29cd19124e986da685107d16ce4b49bc0a97 for source ReSound-1.12.2-1r.jar, however there is no signature matching that description
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: java.lang.IllegalArgumentException: MALFORMED
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.util.zip.ZipCoder.toString(ZipCoder.java:58)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.util.zip.ZipFile.getZipEntry(ZipFile.java:567)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.util.zip.ZipFile.access$900(ZipFile.java:61)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.util.zip.ZipFile$ZipEntryIterator.next(ZipFile.java:525)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:500)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.util.zip.ZipFile$ZipEntryIterator.nextElement(ZipFile.java:481)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at thut.lib.CompatParser$ClassFinder.findInFolder(CompatParser.java:73)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at thut.lib.CompatParser$ClassFinder.findInFolder(CompatParser.java:102)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at thut.lib.CompatParser$ClassFinder.find(CompatParser.java:47)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at thut.lib.CompatParser.findClasses(CompatParser.java:129)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at thut.core.common.compat.Compat.<init>(Compat.java:37)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.lang.Class.newInstance(Class.java:442)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraftforge.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:191)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:599)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[11:48:27] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:4431)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[11:48:28] [Client thread/INFO]: [thut.lib.CompatParser$ClassFinder:findInFolder:90]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[11:48:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, Additional Resources bonus resource pack, FMLFileResourcePack:SecurityCraft, FMLFileResourcePack:RPG-Hud, FMLFileResourcePack:Audio Death, FMLFileResourcePack:Better Combat Rebirth, FMLFileResourcePack:carvablepumpkins, FMLFileResourcePack:Cathedral, FMLFileResourcePack:Chisel, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CraftTweaker JEI Support, FMLFileResourcePack:CTM, FMLFileResourcePack:CustomNPCs, FMLFileResourcePack:Damage Control, FMLFileResourcePack:ElecCoreLoader, FMLFileResourcePack:ElecCore, FMLFileResourcePack:Epic Siege Mod, FMLFileResourcePack:Fake Name, FMLFileResourcePack:Ice and Fire, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Malisis Blocks, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:MalisisDoors, FMLFileResourcePack:MineTweakerRecipeMaker, FMLFileResourcePack:Placebo, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:RE-Sound, FMLFileResourcePack:Secret Rooms 5, FMLFileResourcePack:Simple Dimensions, FMLFileResourcePack:SpawnTableTweaker, FMLFileResourcePack:Techguns, FMLFileResourcePack:TextureFix, FMLFileResourcePack:ThutCore Compat, FMLFileResourcePack:Thut Core, FMLFileResourcePack:Thut's Elevators, FMLFileResourcePack:Toast Control, FMLFileResourcePack:VanillaFix, FMLFileResourcePack:Varied Commodities, FMLFileResourcePack:XPTeleporters 2, FMLFileResourcePack:LLibrary, FMLFileResourcePack:More Sound Config, FMLFileResourcePack:ShetiPhian-Core
+[11:48:34] [Client thread/INFO]: Processing ObjectHolder annotations
+[11:48:36] [Client thread/INFO]: Found 1570 ObjectHolder annotations
+[11:48:36] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[11:48:36] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[11:48:36] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[11:48:37] [Forge Version Check/INFO]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[11:48:40] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitypumpkin`, expected `carvablepumpkins`. This could be a intended override, but in most cases indicates a broken mod.
+[11:48:40] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper], Method [getTextures]
+[11:48:40] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper Finished.
+[11:48:41] [Client thread/INFO]: Applying holder lookups
+[11:48:41] [Client thread/INFO]: Holder lookups applied
+[11:48:42] [Client thread/WARN]: Failed to identify sun.reflect.GeneratedMethodAccessor4 (untransformed name: sun.reflect.GeneratedMethodAccessor4)
+[11:48:42] [Client thread/FATAL]: Minecraft ran into a problem! Report saved to: C:\Users\Nathan\AppData\Roaming\.minecraft\crash-reports\crash-2020-03-21_11.48.42-client.txt
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 2020-03-21 11:48:42 CDT
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from CodeChicken Lib (codechickenlib)
+Caused by: codechicken.lib.configuration.ConfigFile$ConfigException: codechicken.lib.configuration.ConfigParseException: Invalid value type d, @Line:20, dump_asm=true
+    at codechicken.lib.configuration.ConfigFile.load(ConfigFile.java:61)
+    at codechicken.lib.configuration.ConfigFile.<init>(ConfigFile.java:43)
+    at codechicken.lib.configuration.ConfigFile.<init>(ConfigFile.java:29)
+    at codechicken.lib.configuration.ConfigFile.<init>(ConfigFile.java:19)
+    at codechicken.lib.CodeChickenLib.preInit(CodeChickenLib.java:50)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+    at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+    at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+    at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+    at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+    at net.minecraft.client.Minecraft.init(Minecraft.java:467)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:4431)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: codechicken.lib.configuration.ConfigParseException: Invalid value type d, @Line:20, dump_asm=true
+    at codechicken.lib.configuration.ConfigTag.parseTag(ConfigTag.java:92)
+    at codechicken.lib.configuration.ConfigFile.load(ConfigFile.java:59)
+    ... 44 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 7 (amd64) version 6.1
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 710526120 bytes (677 MB) / 1409286144 bytes (1344 MB) up to 3221225472 bytes (3072 MB)
+  JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F5 52 mods loaded, 52 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                  | Version               | Source                                                | Signature                                |
+       |:----- |:------------------- |:--------------------- |:----------------------------------------------------- |:---------------------------------------- |
+       | LCH   | minecraft           | 1.12.2                | minecraft.jar                                         | None                                     |
+       | LCH   | mcp                 | 9.42                  | minecraft.jar                                         | None                                     |
+       | LCH   | FML                 | 8.0.99.99             | forge-1.12.2-14.23.5.2847.jar                         | None                                     |
+       | LCH   | forge               | 14.23.5.2847          | forge-1.12.2-14.23.5.2847.jar                         | None                                     |
+       | LCH   | additionalresources | 0.1.1                 | additionalresources-1.9.4-0.2.0.28+47cd0bd_signed.jar | None                                     |
+       | LCH   | srm-hooks           | 1.12.2-1.0.0          | minecraft.jar                                         | None                                     |
+       | LCH   | moresoundconfigcore | 1.0.0                 | minecraft.jar                                         | None                                     |
+       | LCH   | techguns_core       | 1.12.2-1.0            | minecraft.jar                                         | None                                     |
+       | LCH   | securitycraft       | v1.8.12               | [1.12.2]+SecurityCraft+v1.8.12.jar                    | None                                     |
+       | LCH   | rpghud              | 3.6.6.2               | [1.12]+RPG-HUD-3.6.6.2.jar                            | None                                     |
+       | LCH   | audiodeath          | 0.7.0_1.9-87aeca7     | audiodeath-1.9-0.7.0.50+87aeca7.jar                   | None                                     |
+       | LCH   | bettercombatmod     | 1.5.6                 | BetterCombat-1.12.2-1.5.6.jar                         | None                                     |
+       | LCH   | carvablepumpkins    | 1.5                   | carvablepumpkins_1.5.jar                              | None                                     |
+       | LCH   | ctm                 | MC1.12.2-0.3.3.22     | CTM-MC1.12.2-0.3.3.22.jar                             | None                                     |
+       | LCH   | chisel              | MC1.12.2-0.2.1.35     | Chisel-MC1.12.2-0.2.1.35.jar                          | None                                     |
+       | LCH   | cathedral           | 1.12.2-1.9.7k         | Cathedral-1.12.2-1.9.7k.jar                           | None                                     |
+       | LCE   | codechickenlib      | 3.2.3.358             | CodeChickenLib-1.12.2-3.2.3.358-universal.jar         | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LC    | redstoneflux        | 2.1.0                 | RedstoneFlux-1.12-2.1.0.6-universal.jar               | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LC    | cofhcore            | 4.6.3                 | CoFHCore-1.12.2-4.6.3.27-universal.jar                | None                                     |
+       | LC    | crafttweaker        | 4.1.19                | CraftTweaker2-1.12-4.1.19.jar                         | None                                     |
+       | LC    | ctgui               | 1.0.0                 | CraftTweaker2-1.12-4.1.19.jar                         | None                                     |
+       | LC    | jei                 | 4.15.0.291            | jei_1.12.2-4.15.0.291.jar                             | None                                     |
+       | LC    | crafttweakerjei     | 2.0.3                 | CraftTweaker2-1.12-4.1.19.jar                         | None                                     |
+       | LC    | customnpcs          | 1.12                  | CustomNPCs_1.12.2-(01Oct19).jar                       | None                                     |
+       | LC    | dmgcontrol          | 1.3.15                | DamageControl-1.12.2-1.3.15.jar                       | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LC    | eleccore            | 1.9.452               | ElecCore-1.12.2-1.9.452.jar                           | None                                     |
+       | LC    | epicsiegemod        | 13.164                | EpicSiegeMod-13.164.jar                               | None                                     |
+       | LC    | fakename            | 1.1                   | Fakename+MC1.12.2+v1.1.jar                            | None                                     |
+       | LC    | llibrary            | 1.7.19                | llibrary-1.7.19-1.12.2.jar                            | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+       | LC    | iceandfire          | 1.8.4                 | iceandfire-1.8.4.jar                                  | None                                     |
+       | LC    | ironchest           | 1.12.2-7.0.67.844     | ironchest-1.12.2-7.0.72.847.jar                       | None                                     |
+       | LC    | malisiscore         | 1.12.2-6.5.1-SNAPSHOT | malisiscore-1.12.2-6.5.1.jar                          | None                                     |
+       | LC    | malisisblocks       | 1.12.2-6.1.0          | malisisblocks-1.12.2-6.1.0.jar                        | None                                     |
+       | LC    | malisisdoors        | 1.12.2-7.3.0          | malisisdoors-1.12.2-7.3.0.jar                         | None                                     |
+       | LC    | mtrm                | 1.2.2.30              | MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar            | None                                     |
+       | LC    | placebo             | 1.6.0                 | Placebo-1.12.2-1.6.0.jar                              | None                                     |
+       | LC    | resound             | 1r                    | ReSound-1.12.2-1r.jar                                 | None                                     |
+       | LC    | secretroomsmod      | 5.6.4                 | secretroomsmod-1.12.2-5.6.4.jar                       | None                                     |
+       | LC    | simpledimensions    | 1.3.1                 | SimpleDimensions-MC1.12-1.3.1.jar                     | None                                     |
+       | LC    | spawntabletweaker   | 1.0                   | spawntabletweaker-1.0.jar                             | None                                     |
+       | LC    | techguns            | 2.0.2.0               | techguns-1.12.2-2.0.2.0_pre3.1.jar                    | None                                     |
+       | LC    | texfix              | 4.0                   | TexFix+V-1.12-4.0.jar                                 | None                                     |
+       | LC    | thutcore            | 5.21.0                | thutcore-1.12.2-5.21.0.jar                            | None                                     |
+       | LC    | thutcore_compat     | 1.0                   | thutcore-1.12.2-5.21.0.jar                            | None                                     |
+       | LC    | thuttech            | 6.1.6                 | thuttech-1.12.2-6.1.6.jar                             | None                                     |
+       | LC    | toastcontrol        | 1.8.1                 | Toast+Control-1.12.2-1.8.1.jar                        | None                                     |
+       | LC    | vanillafix          | 1.0.10-SNAPSHOT       | VanillaFix-1.0.10-99.jar                              | None                                     |
+       | LC    | variedcommodities   | 1.12.2                | VariedCommodities_1.12.2(15may18.jar                  | None                                     |
+       | LC    | xpt                 | 2.0.0                 | XPTeleporters-1.12.2-2.0.0.jar                        | None                                     |
+       | LC    | moresoundconfig     | 1.0.4                 | moresoundconfig-1.0.4.jar                             | 7904c4e13947c8a616c5f39b26bdeba796500722 |
+       | LC    | shetiphiancore      | 3.5.9                 | shetiphiancore-1.12.0-3.5.9.jar                       | None                                     |
+       | LC    | eleccoreloader      | 1.9.452               | ElecCore-1.12.2-1.9.452.jar                           | None                                     |
+  Loaded coremods (and transformers): llibrary (llibrary-core-1.0.11-1.12.2.jar)
+                                        net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+                                        net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+                                      iceandfire (iceandfire-1.8.4.jar)
+                                        com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+                                      ShetiPhian-ASM (ShetiPhian-ASM-1.12.0.jar)
+                                        shetiphian.asm.ClassTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-99.jar)
+                                        
+                                      SecretRoomsMod-Core (secretroomsmod-1.12.2-5.6.4.jar)
+                                        com.wynprice.secretroomsmod.core.SecretRoomsTransformer
+                                      MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+                                        
+                                      MoreSoundConfigCore (moresoundconfig-core-1.0.4.jar)
+                                        ichttt.mods.moresoundconfig.asm.MSCTransformer
+                                      Ar_CorePlugin (additionalresources-1.9.4-0.2.0.28+47cd0bd_signed.jar)
+                                        
+                                      CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      Techguns Core (techguns-1.12.2-2.0.2.0_pre3.1.jar)
+                                        techguns.core.TechgunsASMTransformer
+  Suspected Mods: CodeChicken Lib (codechickenlib)
+
+[11:48:44] [Client thread/WARN]: Failed to identify sun.reflect.GeneratedMethodAccessor4 (untransformed name: sun.reflect.GeneratedMethodAccessor4)
+[11:48:44] [Client thread/FATAL]: Minecraft ran into a problem! Report saved to: C:\Users\Nathan\AppData\Roaming\.minecraft\crash-reports\crash-2020-03-21_11.48.44-client.txt
+---- Minecraft Crash Report ----
+// On the bright side, I bought you a teddy bear!
+
+Time: 2020-03-21 11:48:44 CDT
+Description: Initializing game
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from CodeChicken Lib (codechickenlib)
+Caused by: codechicken.lib.configuration.ConfigFile$ConfigException: codechicken.lib.configuration.ConfigParseException: Invalid value type d, @Line:20, dump_asm=true
+    at codechicken.lib.configuration.ConfigFile.load(ConfigFile.java:61)
+    at codechicken.lib.configuration.ConfigFile.<init>(ConfigFile.java:43)
+    at codechicken.lib.configuration.ConfigFile.<init>(ConfigFile.java:29)
+    at codechicken.lib.configuration.ConfigFile.<init>(ConfigFile.java:19)
+    at codechicken.lib.CodeChickenLib.preInit(CodeChickenLib.java:50)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+    at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+    at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+    at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+    at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+    at net.minecraft.client.Minecraft.init(Minecraft.java:467)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:4431)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: codechicken.lib.configuration.ConfigParseException: Invalid value type d, @Line:20, dump_asm=true
+    at codechicken.lib.configuration.ConfigTag.parseTag(ConfigTag.java:92)
+    at codechicken.lib.configuration.ConfigFile.load(ConfigFile.java:59)
+    ... 44 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 7 (amd64) version 6.1
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 705838848 bytes (673 MB) / 1409286144 bytes (1344 MB) up to 3221225472 bytes (3072 MB)
+  JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F5 52 mods loaded, 52 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                  | Version               | Source                                                | Signature                                |
+       |:----- |:------------------- |:--------------------- |:----------------------------------------------------- |:---------------------------------------- |
+       | LCH   | minecraft           | 1.12.2                | minecraft.jar                                         | None                                     |
+       | LCH   | mcp                 | 9.42                  | minecraft.jar                                         | None                                     |
+       | LCH   | FML                 | 8.0.99.99             | forge-1.12.2-14.23.5.2847.jar                         | None                                     |
+       | LCH   | forge               | 14.23.5.2847          | forge-1.12.2-14.23.5.2847.jar                         | None                                     |
+       | LCH   | additionalresources | 0.1.1                 | additionalresources-1.9.4-0.2.0.28+47cd0bd_signed.jar | None                                     |
+       | LCH   | srm-hooks           | 1.12.2-1.0.0          | minecraft.jar                                         | None                                     |
+       | LCH   | moresoundconfigcore | 1.0.0                 | minecraft.jar                                         | None                                     |
+       | LCH   | techguns_core       | 1.12.2-1.0            | minecraft.jar                                         | None                                     |
+       | LCH   | securitycraft       | v1.8.12               | [1.12.2]+SecurityCraft+v1.8.12.jar                    | None                                     |
+       | LCH   | rpghud              | 3.6.6.2               | [1.12]+RPG-HUD-3.6.6.2.jar                            | None                                     |
+       | LCH   | audiodeath          | 0.7.0_1.9-87aeca7     | audiodeath-1.9-0.7.0.50+87aeca7.jar                   | None                                     |
+       | LCH   | bettercombatmod     | 1.5.6                 | BetterCombat-1.12.2-1.5.6.jar                         | None                                     |
+       | LCH   | carvablepumpkins    | 1.5                   | carvablepumpkins_1.5.jar                              | None                                     |
+       | LCH   | ctm                 | MC1.12.2-0.3.3.22     | CTM-MC1.12.2-0.3.3.22.jar                             | None                                     |
+       | LCH   | chisel              | MC1.12.2-0.2.1.35     | Chisel-MC1.12.2-0.2.1.35.jar                          | None                                     |
+       | LCH   | cathedral           | 1.12.2-1.9.7k         | Cathedral-1.12.2-1.9.7k.jar                           | None                                     |
+       | LCE   | codechickenlib      | 3.2.3.358             | CodeChickenLib-1.12.2-3.2.3.358-universal.jar         | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LC    | redstoneflux        | 2.1.0                 | RedstoneFlux-1.12-2.1.0.6-universal.jar               | 8a6abf2cb9e141b866580d369ba6548732eff25f |
+       | LC    | cofhcore            | 4.6.3                 | CoFHCore-1.12.2-4.6.3.27-universal.jar                | None                                     |
+       | LC    | crafttweaker        | 4.1.19                | CraftTweaker2-1.12-4.1.19.jar                         | None                                     |
+       | LC    | ctgui               | 1.0.0                 | CraftTweaker2-1.12-4.1.19.jar                         | None                                     |
+       | LC    | jei                 | 4.15.0.291            | jei_1.12.2-4.15.0.291.jar                             | None                                     |
+       | LC    | crafttweakerjei     | 2.0.3                 | CraftTweaker2-1.12-4.1.19.jar                         | None                                     |
+       | LC    | customnpcs          | 1.12                  | CustomNPCs_1.12.2-(01Oct19).jar                       | None                                     |
+       | LC    | dmgcontrol          | 1.3.15                | DamageControl-1.12.2-1.3.15.jar                       | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LC    | eleccore            | 1.9.452               | ElecCore-1.12.2-1.9.452.jar                           | None                                     |
+       | LC    | epicsiegemod        | 13.164                | EpicSiegeMod-13.164.jar                               | None                                     |
+       | LC    | fakename            | 1.1                   | Fakename+MC1.12.2+v1.1.jar                            | None                                     |
+       | LC    | llibrary            | 1.7.19                | llibrary-1.7.19-1.12.2.jar                            | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+       | LC    | iceandfire          | 1.8.4                 | iceandfire-1.8.4.jar                                  | None                                     |
+       | LC    | ironchest           | 1.12.2-7.0.67.844     | ironchest-1.12.2-7.0.72.847.jar                       | None                                     |
+       | LC    | malisiscore         | 1.12.2-6.5.1-SNAPSHOT | malisiscore-1.12.2-6.5.1.jar                          | None                                     |
+       | LC    | malisisblocks       | 1.12.2-6.1.0          | malisisblocks-1.12.2-6.1.0.jar                        | None                                     |
+       | LC    | malisisdoors        | 1.12.2-7.3.0          | malisisdoors-1.12.2-7.3.0.jar                         | None                                     |
+       | LC    | mtrm                | 1.2.2.30              | MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar            | None                                     |
+       | LC    | placebo             | 1.6.0                 | Placebo-1.12.2-1.6.0.jar                              | None                                     |
+       | LC    | resound             | 1r                    | ReSound-1.12.2-1r.jar                                 | None                                     |
+       | LC    | secretroomsmod      | 5.6.4                 | secretroomsmod-1.12.2-5.6.4.jar                       | None                                     |
+       | LC    | simpledimensions    | 1.3.1                 | SimpleDimensions-MC1.12-1.3.1.jar                     | None                                     |
+       | LC    | spawntabletweaker   | 1.0                   | spawntabletweaker-1.0.jar                             | None                                     |
+       | LC    | techguns            | 2.0.2.0               | techguns-1.12.2-2.0.2.0_pre3.1.jar                    | None                                     |
+       | LC    | texfix              | 4.0                   | TexFix+V-1.12-4.0.jar                                 | None                                     |
+       | LC    | thutcore            | 5.21.0                | thutcore-1.12.2-5.21.0.jar                            | None                                     |
+       | LC    | thutcore_compat     | 1.0                   | thutcore-1.12.2-5.21.0.jar                            | None                                     |
+       | LC    | thuttech            | 6.1.6                 | thuttech-1.12.2-6.1.6.jar                             | None                                     |
+       | LC    | toastcontrol        | 1.8.1                 | Toast+Control-1.12.2-1.8.1.jar                        | None                                     |
+       | LC    | vanillafix          | 1.0.10-SNAPSHOT       | VanillaFix-1.0.10-99.jar                              | None                                     |
+       | LC    | variedcommodities   | 1.12.2                | VariedCommodities_1.12.2(15may18.jar                  | None                                     |
+       | LC    | xpt                 | 2.0.0                 | XPTeleporters-1.12.2-2.0.0.jar                        | None                                     |
+       | LC    | moresoundconfig     | 1.0.4                 | moresoundconfig-1.0.4.jar                             | 7904c4e13947c8a616c5f39b26bdeba796500722 |
+       | LC    | shetiphiancore      | 3.5.9                 | shetiphiancore-1.12.0-3.5.9.jar                       | None                                     |
+       | LC    | eleccoreloader      | 1.9.452               | ElecCore-1.12.2-1.9.452.jar                           | None                                     |
+  Loaded coremods (and transformers): llibrary (llibrary-core-1.0.11-1.12.2.jar)
+                                        net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+                                        net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+                                      iceandfire (iceandfire-1.8.4.jar)
+                                        com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+                                      ShetiPhian-ASM (ShetiPhian-ASM-1.12.0.jar)
+                                        shetiphian.asm.ClassTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-99.jar)
+                                        
+                                      SecretRoomsMod-Core (secretroomsmod-1.12.2-5.6.4.jar)
+                                        com.wynprice.secretroomsmod.core.SecretRoomsTransformer
+                                      MalisisCorePlugin (malisiscore-1.12.2-6.5.1.jar)
+                                        
+                                      MoreSoundConfigCore (moresoundconfig-core-1.0.4.jar)
+                                        ichttt.mods.moresoundconfig.asm.MSCTransformer
+                                      Ar_CorePlugin (additionalresources-1.9.4-0.2.0.28+47cd0bd_signed.jar)
+                                        
+                                      CTMCorePlugin (CTM-MC1.12.2-0.3.3.22.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      Techguns Core (techguns-1.12.2-2.0.2.0_pre3.1.jar)
+                                        techguns.core.TechgunsASMTransformer
+  Suspected Mods: CodeChicken Lib (codechickenlib)
+  Launched Version: 1.12.2
+  LWJGL: 2.9.4
+  OpenGL: AMD Radeon HD 6310 Graphics GL version 4.5.13417 Compatibility Profile Context 15.301.1901.0, ATI Technologies Inc.
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge,LiteLoader'
+  Type: Client (map_client.txt)
+  Resource Packs: 
+  Current Language: English (US)
+  Profiler Position: N/A (disabled)
+  CPU: 2x AMD E-300 APU with Radeon(tm) HD Graphics
+
+[11:48:44] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[11:48:44] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[11:48:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, Additional Resources bonus resource pack, FMLFileResourcePack:SecurityCraft, FMLFileResourcePack:RPG-Hud, FMLFileResourcePack:Audio Death, FMLFileResourcePack:Better Combat Rebirth, FMLFileResourcePack:carvablepumpkins, FMLFileResourcePack:Cathedral, FMLFileResourcePack:Chisel, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:CT-GUI, FMLFileResourcePack:CraftTweaker2, FMLFileResourcePack:CraftTweaker JEI Support, FMLFileResourcePack:CTM, FMLFileResourcePack:CustomNPCs, FMLFileResourcePack:Damage Control, FMLFileResourcePack:ElecCoreLoader, FMLFileResourcePack:ElecCore, FMLFileResourcePack:Epic Siege Mod, FMLFileResourcePack:Fake Name, FMLFileResourcePack:Ice and Fire, FMLFileResourcePack:Iron Chest, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Malisis Blocks, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:MalisisDoors, FMLFileResourcePack:MineTweakerRecipeMaker, FMLFileResourcePack:Placebo, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:RE-Sound, FMLFileResourcePack:Secret Rooms 5, FMLFileResourcePack:Simple Dimensions, FMLFileResourcePack:SpawnTableTweaker, FMLFileResourcePack:Techguns, FMLFileResourcePack:TextureFix, FMLFileResourcePack:ThutCore Compat, FMLFileResourcePack:Thut Core, FMLFileResourcePack:Thut's Elevators, FMLFileResourcePack:Toast Control, FMLFileResourcePack:VanillaFix, FMLFileResourcePack:Varied Commodities, FMLFileResourcePack:XPTeleporters 2, FMLFileResourcePack:LLibrary, FMLFileResourcePack:More Sound Config, FMLFileResourcePack:ShetiPhian-Core, VanillaFix-1.0.10-99.jar
+[11:48:44] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[11:48:44] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[11:48:45] [Forge Version Check/INFO]: [cofhcore] Found status: UP_TO_DATE Target: null
+[11:48:45] [Forge Version Check/INFO]: [rpghud] Starting version check at http://download.spellcraftgaming.net/rpghud/version/update.json
+[11:48:46] [Client thread/INFO]: Starting patch of class paulscode.sound.libraries.LibraryLWJGLOpenAL
+[11:48:46] [Client thread/INFO]: Patch of class paulscode.sound.libraries.LibraryLWJGLOpenAL ended
+[11:48:46] [Client thread/WARN]: Invalid sounds.json
+java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385) ~[JsonReader.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[MapTypeAdapterFactory$Adapter.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(SourceFile:504) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.fromJson(SourceFile:522) ~[rc.class:?]
+	at net.minecraft.client.audio.SoundHandler.getSoundMap(SoundHandler.java:145) ~[cho.class:?]
+	at net.minecraft.client.audio.SoundHandler.onResourceManagerReload(SoundHandler.java:79) [cho.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [cev.class:?]
+	at net.minecraft.client.Minecraft.displayInitErrorScreen(Minecraft.java:4504) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:4434) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+[11:48:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[11:48:52] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[11:48:52] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:48:53] [Thread-3/INFO]: Reading sound devices
+[11:48:55] [Thread-3/INFO]: SoundManager loading on device System Default
